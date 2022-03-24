@@ -284,6 +284,9 @@ VERBSYMBOL	=|\\leq|\\geq|\\in|>|<|\\subseteq|\subseteq|\\subset|\\supset|\\sim|\
 <Normal>"\\DeclareRobustCommand"		{ KILLARGS(3); }
 <Normal>"\\addbibresource"			{ KILLARGS(1); }
 <Normal>"\\graphicspath"			{ KILLARGS(1); }
+<Normal>"\\Myref"				{ KILLARGS(1); }
+<Normal>"\\myref"				{ KILLARGS(1); }
+<Normal>"\\mynamedref"				{ KILLARGS(2); }
 
 <Normal>"\\newlength"				{ KILLARGS(1); }
 <Normal>"\\setlength"				{ KILLARGS(2); }

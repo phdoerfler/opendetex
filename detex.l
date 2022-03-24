@@ -276,6 +276,7 @@ VERBSYMBOL	=|\\leq|\\geq|\\in|>|<|\\subseteq|\subseteq|\\subset|\\supset|\\sim|\
 <Normal>"\\addvspace"{S}"{"{VG}"}"		;
 <Normal>"{"{N}"pt}"						; /* hack to fix \begin{minipage}{300pt} */
 
+<Normal>"\\todo"				{ KILLARGS(1); }
 <Normal>"\\newlength"				{ KILLARGS(1); }
 <Normal>"\\setlength"				{ KILLARGS(2); }
 <Normal>"\\addtolength"				{ KILLARGS(2); }

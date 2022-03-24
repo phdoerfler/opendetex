@@ -277,6 +277,7 @@ VERBSYMBOL	=|\\leq|\\geq|\\in|>|<|\\subseteq|\subseteq|\\subset|\\supset|\\sim|\
 <Normal>"{"{N}"pt}"						; /* hack to fix \begin{minipage}{300pt} */
 
 <Normal>"\\todo"				{ KILLARGS(1); }
+<Normal>"\\missingfigure"			{ KILLARGS(2); }
 <Normal>"\\lstdefinelanguage"			{ KILLARGS(2); }
 <Normal>"\\lstset"				{ KILLARGS(1); }
 <Normal>"\\usetikzlibrary"			{ KILLARGS(1); }
